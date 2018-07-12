@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="css/lib.css">
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/index.js"></script>
+<script src="google-analytics-bundle.js"></script>
+<body>
+<div style="width: 400px">
+    <nav class="navbar  navbar-default" style="margin: 0;height: 50px;">
+        <div class="container-fluid">
+            <ul class="nav navbar-nav">
+                <li data-index="0" class="active"><a href="#">人型時間</a></li>
+                <li data-index="1"><a href="#">裝備時間</a></li>
+                <li data-index="2"><a href="#">妖精時間</a></li>
+                <a href="#" class="other_function" style="color: #ffb300">其他功能</a>
+            </ul>
+        </div>
+    </nav>
+</div>
+<div id="time_girl">
+    <form class="input-group"><input type="number" id="girl_HH" placeholder="小時" max="8" min="0" tabindex="1"
+                                     autofocus="autofocus" class="form-control" style="width: 100%;"> <span
+            class="input-group-btn grid"></span>
+        <input type="number"  id="girl_MM" placeholder="分鐘" max="99" min="0"
+               tabindex="2" class="form-control" style="width: 100%;">
+        <span
+                class="input-group-btn">
+        <input type="submit" value="尋找" class="btn gl-btn-primary"
+               style="width: 100px; color: #fdfbff;outline-color: #ffb300; "></span>
+    </form>
+</div>
+
+<div id="time_device">
+    <form class="input-group">
+        <input type="number" id="time_MM" maxlength="2" placeholder="分鐘" max="99" min="0" class="form-control">
+        <span class="input-group-btn"><input type="submit" value="尋找" class="btn gl-btn-primary" style="width: 100px; color: #fdfbff;outline-color: #ffb300; "></span>
+    </form>
+</div>
+
+<div id="time_fairy">
+    <form class="input-group">
+        <input type="number" id="fairy_HH" maxlength="1" placeholder="小時" max="8" min="0" class="form-control"
+               style="width: 100%;">
+        <span class="input-group-btn grid"></span>
+        <input type="number" id="fairy_MM" maxlength="2" placeholder="分鐘" max="99" min="0" class="form-control"
+               style="width: 100%;">
+        <span class="input-group-btn">
+            <input type="submit" value="尋找" class="btn gl-btn-primary" style="width: 100px; color: #fdfbff;outline-color: #ffb300; " ></span>
+    </form>
+</div>
+
+<div id="time_output">
+</div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+{
+   "name":"少女前線 時間查詢",
+   "version":"1.2.1",
+   "manifest_version":2,
+   "description":"查詢少女前線 建造時間\n 支援網頁:https://www.ntw-20.com/",
+   "browser_action":{
+      "default_icon":"icons/icon.png",
+      "default_title":"少女前線 時間查詢",
+      "default_popup":"index.html"
+   },
+   "icons": {
+      "128" : "icons/icon.png",
+      "32"  : "icons/icon.png",
+      "48"  : "icons/icon.png",
+      "16"  : "icons/icon.png"
+   },
+   "permissions": [
+            "storage"
+        ],
+   "content_security_policy": "script-src 'self'; object-src 'self';"
+}

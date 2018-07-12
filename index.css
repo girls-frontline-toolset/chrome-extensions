@@ -1,0 +1,196 @@
+body {
+    width: 400px;
+}
+
+.nav li {
+    float: left;
+
+}
+
+.nav li a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.container-fluid {
+    display: block;
+}
+
+#time_girl ,#time_device, #time_fairy ,#time_output {
+    padding: 5px;
+
+}
+
+.gl-btn-primary {
+    background-color: rgba(255, 179, 0, .8);
+    color: #fdfbff;
+}
+
+input[type=email]:focus, input[type=number]:focus, input[type=text]:focus, select:focus {
+    box-shadow: 0 0 10px rgba(255, 179, 0, .8);
+    border: 1px solid rgba(255, 179, 0, .8);
+}
+
+input[type=email], input[type=number], input[type=text], select, textarea {
+    border: 1px solid #ffb300;
+}
+
+.active{
+    background-color: #ffb300 ; !important;
+}
+
+#time_output img{
+    width: 32%;
+}
+
+.div_device{
+    width: 113px;
+    margin-right: 5px;
+    float: left;
+}
+
+
+.div_device ol{
+    list-style: none;
+    padding:  0 ;
+    margin: 2px ;
+    width: 113px;
+}
+
+.div_device li{
+    text-align: center;
+}
+
+.div_device li:nth-child(1){
+    font-size: 10px;
+    background-size: 115px 115px;
+    height: 120px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.div_device li:nth-child(2){
+    background-color: #000000;
+}
+
+.div_device li:nth-child(3){
+    background-color: #000000;
+    color: #fff;
+}
+
+.div_device li:nth-child(4){
+    background-color: #313731;
+    color: #fff;
+}
+
+.ty_001 {
+    background-image:url('https://www.ntw-20.com/common/device/ty_001.png') ;
+}
+
+.ty_002 {
+    background-image:url('https://www.ntw-20.com/common/device/ty_002.png') ;
+}
+
+.ty_003 {
+    background-image:url('https://www.ntw-20.com/common/device/ty_003.png') ;
+}
+
+.ty_004 {
+    background-image:url('https://www.ntw-20.com/common/device/ty_004.png') ;
+}
+
+.ty_005 {
+    background-image:url('https://www.ntw-20.com/common/device/ty_005.png') ;
+}
+
+.ty_006 {
+    background-image:url('https://www.ntw-20.com/common/device/ty_006.png') ;
+}
+
+.ty_007 {
+    background-image:url('https://www.ntw-20.com/common/device/ty_007.png') ;
+}
+
+.ty_008 {
+    background-image:url('https://www.ntw-20.com/common/device/ty_008.png') ;
+}
+
+.ty_009 {
+    background-image:url('https://www.ntw-20.com/common/device/ty_009.png') ;
+}
+
+.ty_010 {
+    background-image:url('https://www.ntw-20.com/common/device/ty_010.png') ;
+}
+
+.ty_011 {
+    background-image:url('https://www.ntw-20.com/common/device/ty_011.png') ;
+}
+
+.ty_012 {
+    background-image:url('https://www.ntw-20.com/common/device/ty_012.png') ;
+}
+
+.ty_013 {
+    background-image:url('https://www.ntw-20.com/common/device/ty_013.png') ;
+}
+
+.ty_014 {
+    background-image:url('https://www.ntw-20.com/common/device/ty_014.png') ;
+}
+
+.ty_015 {
+    background-image:url('https://www.ntw-20.com/common/device/ty_015.png') ;
+}
+
+.str_5 {
+    color: #ffbc00;
+}
+
+.str_4 {
+    color: #9cd125;
+}
+
+.str_3 {
+    color: #9acdef;
+}
+
+.str_2 {
+    color: #dedcde;
+}
+
+.str_5_bg{
+    background-color: #ffbc00;
+}
+
+.str_4_bg{
+    background-color: #9cd125;
+}
+
+.str_3_bg{
+    background-color: #9acdef;
+}
+
+.str_2_bg{
+    background-color: #dedcde;
+}
+
+.device_output {
+    margin-top: 10px;
+    overflow: overlay;
+}
+
+.is_heavy {
+    border: 3px solid #ed7b4a;
+}
+.no_heavy {
+    border: 3px solid #a0c11b;
+}
+
+.other_function{
+    float: right;
+    margin-right: 10px;
+    font-size: 12px;
+    margin-top: 20px;
+
+}
